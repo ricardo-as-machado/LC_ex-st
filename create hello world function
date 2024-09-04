@@ -1,0 +1,7 @@
+function createHelloWorld() {
+    const comprimentar = "Hello World"; 
+
+    return function() {
+        return comprimentar;
+    };
+}
